@@ -42,6 +42,7 @@ public class EvaluatePostfix {
         // This can be any postfix expression and be changed
         // to be a random postfix expression generator, but
         // for my purposes I will give one here and test for multiple.
+        // This is assuming each expression is given in valid postfix format.
         String exp = "47*28-+";
         System.out.println("Postfix evaluation: " + evaluate(exp));
     }
